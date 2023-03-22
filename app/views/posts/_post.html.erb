@@ -1,3 +1,4 @@
+<% unless post.archived? %>
 <p>
   <strong>Poster:</strong>
   <%= post.poster %>
@@ -7,3 +8,4 @@
   <strong>post:</strong>
   <%= post.body %>
 </p>
+<% end %>

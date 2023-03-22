@@ -1,4 +1,6 @@
 class Article < ApplicationRecord
+  include Visible
+
   has_many :comments
   has_many :posts
 
